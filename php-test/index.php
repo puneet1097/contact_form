@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (mysqli_query($conn, $sql)) {
 
-      $to = 'siteowner@example.com';
+      $to = 'test@techsolvitservice.com';
       $subject = 'New Form Submission';
       $message = "A new form submission has been received.\n\nFull Name: $fullName\nPhone Number: $phoneNumber\nEmail: $email\nSubject: $subject\nMessage: $message\nIP Address: $ipAddress\nTimestamp: $timestamp";
       $headers = "From: noreply@example.com\r\n";
